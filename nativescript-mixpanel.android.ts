@@ -112,3 +112,12 @@ export function alias(alias) {
         console.log("MIXPANEL PLUGIN: You need to init first");
     }
 }
+
+export function flush() {
+    if (mixpanel) {
+        mixpanel.flush();
+    }
+    else {
+        console.log("MIXPANEL PLUGIN: You need to init first");
+    }
+}

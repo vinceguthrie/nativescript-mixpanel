@@ -5,3 +5,4 @@ export declare function identify(id: any, extraAtributes?: any): void;
 export declare function registerSuperProperties(props: any): void;
 export declare function addPushDeviceToken(token: any): void;
 export declare function alias(alias: string): void;
+export declare function flush(): void;
